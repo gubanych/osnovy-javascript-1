@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var admin;
+		var name;
+		name = 'Виталий Валентинович';
+		admin = name;
+		alert(admin);
+		function change(){
+			admin = 'Алексей Николаевич';
+			alert('admin:' + admin + ' name:' + name);
+		}
+		document.write('<button onclick="change()">Нажми меня, please!</button>');
+		
+	</script>
+</body>
+</html>
